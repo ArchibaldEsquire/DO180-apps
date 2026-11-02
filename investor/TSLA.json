@@ -1,0 +1,272 @@
+{
+  "ticker": "TSLA",
+  "scorecard": {
+    "score": 38.19548981308775,
+    "band": "Unattractive",
+    "confidence": "High",
+    "pillars": {
+      "quality": 44.40880416092797,
+      "trend": 45.561985714722155,
+      "forward": 57.03080202023936,
+      "valuation": 0.0,
+      "catalysts": 58.634476226065644
+    },
+    "valuation_parts": {
+      "absolute": 0.0,
+      "peers": 0.0,
+      "history": 0.0
+    },
+    "inputs": [
+      {
+        "key": "q_roic",
+        "label": "Return on invested capital, FY25",
+        "value": 0.08120627402845498,
+        "score": 12.482509611381992,
+        "source": "10-K FY25",
+        "rule": "0 at 5.0%, 100 at 30.0%"
+      },
+      {
+        "key": "q_gm",
+        "label": "Gross margin, last 12 months",
+        "value": 0.19285507386308776,
+        "score": 0.0,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at 20.0%, 100 at 70.0%"
+      },
+      {
+        "key": "q_om",
+        "label": "Operating margin, last 12 months",
+        "value": 0.03346528917640244,
+        "score": 9.56151119325784,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at 0.0%, 100 at 35.0%"
+      },
+      {
+        "key": "q_conv",
+        "label": "Free cash flow / net income, last 12 months",
+        "value": 1.026413921690491,
+        "score": 100.0,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at 50.0%, 100 at 100.0%"
+      },
+      {
+        "key": "q_lev",
+        "label": "Net debt / EBITDA",
+        "value": -4.830998248686515,
+        "score": 100.0,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at 4.0x, 100 at no net debt (net cash scores 100)"
+      },
+      {
+        "key": "t_growth",
+        "label": "Revenue growth, latest quarter vs a year earlier",
+        "value": -0.0017440825769710067,
+        "score": 24.563979355757247,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at -10.0%, 100 at +30.0%"
+      },
+      {
+        "key": "t_accel",
+        "label": "Change in that growth rate over three quarters",
+        "value": 0.0296092453103749,
+        "score": 59.86974843679163,
+        "source": "Calc",
+        "rule": "0 at -15.0 pts, 100 at +15.0 pts"
+      },
+      {
+        "key": "t_gm",
+        "label": "Gross margin vs a year earlier",
+        "value": 0.016002802301362445,
+        "score": 66.00280230136245,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at -5.0 pts, 100 at +5.0 pts"
+      },
+      {
+        "key": "t_om",
+        "label": "Operating margin vs a year earlier",
+        "value": -0.032203081006025785,
+        "score": 17.796918993974217,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at -5.0 pts, 100 at +5.0 pts"
+      },
+      {
+        "key": "t_shares",
+        "label": "Diluted share count vs a year earlier",
+        "value": 0.0042541123085648724,
+        "score": 59.576479485725216,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at +4.0%, 100 at -2.0%"
+      },
+      {
+        "key": "f_rev",
+        "label": "Expected revenue growth, this and next fiscal year (average)",
+        "value": 0.1364,
+        "score": 45.46666666666666,
+        "source": "Cons",
+        "rule": "0 at +0.0%, 100 at +30.0%"
+      },
+      {
+        "key": "f_eps",
+        "label": "Expected EPS growth, next fiscal year",
+        "value": 0.2384,
+        "score": 68.11428571428571,
+        "source": "Cons",
+        "rule": "0 at +0.0%, 100 at +35.0%"
+      },
+      {
+        "key": "f_guide",
+        "label": "Next-quarter revenue guidance vs a year earlier",
+        "value": null,
+        "score": null,
+        "source": "8-K",
+        "rule": "0 at +0.0%, 100 at +30.0%"
+      },
+      {
+        "key": "f_cred",
+        "label": "Quarters that beat the company's own revenue guidance",
+        "value": null,
+        "score": null,
+        "source": "8-K",
+        "rule": "share of guided quarters beaten; 0 at none, 100 at all"
+      },
+      {
+        "key": "f_rev90",
+        "label": "Change in this year's consensus EPS, last 90 days",
+        "value": -0.020915488599989818,
+        "score": 39.54225570000509,
+        "source": "Cons",
+        "rule": "0 at -10.0%, 100 at +10.0%"
+      },
+      {
+        "key": "f_beats",
+        "label": "Quarters beating consensus EPS, last four",
+        "value": 0.75,
+        "score": 75.0,
+        "source": "Cons",
+        "rule": "0 at none, 100 at all four"
+      },
+      {
+        "key": "v_fcfy",
+        "label": "Free cash flow yield",
+        "value": 0.0020900552446075095,
+        "score": 0.0,
+        "source": "Mkt 30-Oct-26",
+        "rule": "0 at 1.0%, 100 at 7.0%"
+      },
+      {
+        "key": "v_fpe",
+        "label": "Forward P/E (next fiscal year EPS)",
+        "value": 185.1641,
+        "score": 0.0,
+        "source": "Cons",
+        "rule": "0 at 45.0x, 100 at 12.0x"
+      },
+      {
+        "key": "v_evebitda",
+        "label": "EV / EBITDA, last 12 months",
+        "value": 168.1485335201401,
+        "score": 0.0,
+        "source": "Calc",
+        "rule": "0 at 35.0x, 100 at 8.0x"
+      },
+      {
+        "key": "v_peg",
+        "label": "PEG: forward P/E / expected EPS growth",
+        "value": 7.766950503355704,
+        "score": 0.0,
+        "source": "Calc",
+        "rule": "0 at 2.50, 100 at 0.75"
+      },
+      {
+        "key": "v_gap",
+        "label": "Own growth minus the growth the price assumes",
+        "value": -0.5278102294664591,
+        "score": 0.0,
+        "source": "Calc",
+        "rule": "reverse DCF on free cash flow (9% required return, 10 years, then 2.5%), as /the-mind-reader; 0 at -10 pts, 100 at +10 pts"
+      },
+      {
+        "key": "p_trailing_pe",
+        "label": "P/E vs peer median 17.4x",
+        "value": -24.221103329506313,
+        "score": 0.0,
+        "source": "Peers",
+        "rule": "discount to the peer median; 0 at a 40% premium, 100 at a 40% discount"
+      },
+      {
+        "key": "p_forward_pe",
+        "label": "Forward P/E vs peer median 8.5x",
+        "value": -20.768785907532063,
+        "score": 0.0,
+        "source": "Peers",
+        "rule": "discount to the peer median; 0 at a 40% premium, 100 at a 40% discount"
+      },
+      {
+        "key": "p_ev_ebitda",
+        "label": "EV/EBITDA vs peer median 7.9x",
+        "value": -19.007736698585834,
+        "score": 0.0,
+        "source": "Peers",
+        "rule": "discount to the peer median; 0 at a 40% premium, 100 at a 40% discount"
+      },
+      {
+        "key": "p_ev_sales",
+        "label": "EV/Sales vs peer median 1.0x",
+        "value": -14.70754716981132,
+        "score": 0.0,
+        "source": "Peers",
+        "rule": "discount to the peer median; 0 at a 40% premium, 100 at a 40% discount"
+      },
+      {
+        "key": "h_pe",
+        "label": "Trailing P/E / its 5-year median (137.6x)",
+        "value": 3.193117924915154,
+        "score": 0.0,
+        "source": "Calc",
+        "rule": "0 at 1.5x its median, 100 at half of it"
+      },
+      {
+        "key": "c_react",
+        "label": "Move vs S&P 500 around the last 4 results (average, 2 days)",
+        "value": -0.024739352153179905,
+        "score": 34.53790490426256,
+        "source": "Mkt 30-Oct-26",
+        "rule": "0 at -8.0%, 100 at +8.0%"
+      },
+      {
+        "key": "c_yield",
+        "label": "Buybacks + dividends / market cap, last 12 months",
+        "value": 0.0,
+        "score": 0.0,
+        "source": "10-Q Q3FY26",
+        "rule": "0 at 0.0%, 100 at 5.0%"
+      },
+      {
+        "key": "c_cust",
+        "label": "Largest single customer, share of revenue",
+        "value": 0.0,
+        "score": 100.0,
+        "source": "10-K FY25",
+        "rule": "from the annual report's own sentences; 100 at 10% or less, 0 at 40%"
+      },
+      {
+        "key": "c_flags",
+        "label": "Red flags in 8-Ks, last 12 months",
+        "value": 1.0,
+        "score": 100.0,
+        "source": "8-K",
+        "rule": "100 with none, 60 with a warning sign (auditor change, impairment, lowered guidance...), 0 with a restatement, going-concern doubt or bankruptcy"
+      }
+    ],
+    "peers": [
+      "GM",
+      "F",
+      "TM",
+      "RIVN",
+      "BYDDY"
+    ],
+    "prior": null,
+    "updated": "2026-11-02 04:50",
+    "version": "1.0.0"
+  }
+}
