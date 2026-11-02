@@ -1,0 +1,95 @@
+{
+  "peers": ["WMT", "BJ", "TGT", "AMZN"],
+  "peer_reason": "The retailers a Costco member could shop at instead: Walmart (with Sam's Club) and BJ's Wholesale in warehouse clubs, Target in general merchandise and grocery, Amazon online.",
+  "thesis": [
+    {
+      "lead": "A membership business with very high returns.",
+      "text": "Return on invested capital was 43.6% in FY26 on a gross margin of only 5.4%. Membership fees rose 11% to $5.9B, paid members grew to 84.1M from 81.0M, and the renewal rate was 92.3% in the U.S. and Canada.",
+      "source": "10-K FY26"
+    },
+    {
+      "lead": "Growth is speeding up, not slowing down.",
+      "text": "Net sales rose 10.1% to $297.2B in FY26 and 11.2% in Q4. Revenue growth sped up by 3.6 points over three quarters, and Costco beat consensus EPS in each of the last four quarters.",
+      "source": "8-K 24 Sep 2026"
+    },
+    {
+      "lead": "The price already assumes much more than the business delivers.",
+      "text": "At 40.5x next year's earnings, a 2.1% free cash flow yield and a PEG of 4.07, the price implies growth about 9 points higher than Costco's own record. Consensus expects about 8% revenue growth and 9.9% EPS growth.",
+      "source": "Scorecard"
+    }
+  ],
+  "drivers": [
+    {
+      "lead": "Comparable sales.",
+      "text": "Comparable sales rose 8% in FY26 (7% excluding gasoline and currency), from a 5% rise in average ticket and a 3% rise in shopping frequency.",
+      "source": "10-K FY26"
+    },
+    {
+      "lead": "New warehouses.",
+      "text": "Costco opened 28 new warehouses in FY26 (25 net new) and plans to open up to 33, including five relocations, in FY27. It operates 939 in total.",
+      "source": "10-K FY26"
+    },
+    {
+      "lead": "Executive upgrades and fees.",
+      "text": "Executive members grew to 42.3M from 38.7M and account for about 75.2% of net sales. Fee revenue rose 11% on sign-ups, the fee increase and upgrades.",
+      "source": "10-K FY26"
+    },
+    {
+      "lead": "Digital sales.",
+      "text": "Digitally-enabled comparable sales grew 21% in FY26 and 19.5% in Q4.",
+      "source": "8-K 24 Sep 2026"
+    }
+  ],
+  "guidance": {
+    "text": "Costco does not give revenue or earnings guidance. Its only forward plan is to open up to 33 new warehouses, including five relocations, in fiscal 2027."
+  },
+  "catalysts": [
+    {
+      "date": "Undated",
+      "sort": "2027-03-01",
+      "title": "More IEEPA tariff refunds",
+      "direction": "two-sided",
+      "note": "Costco received $155M more in refunds after year end, after $184M in FY26. It plans to put most of it into lower prices, so the earnings gain should be modest. Q4 included a one-off $0.15 per share benefit.",
+      "source": "10-K FY26"
+    },
+    {
+      "date": "Undated",
+      "sort": "2027-08-29",
+      "title": "Up to 33 warehouse openings in FY27",
+      "direction": "positive",
+      "note": "Up from 28 in FY26. Each opening adds new members and fee revenue.",
+      "source": "10-K FY26"
+    },
+    {
+      "date": "21 Jan 2027",
+      "sort": "2027-01-21",
+      "title": "Annual meeting",
+      "direction": "two-sided",
+      "note": "The annual shareholders' meeting.",
+      "source": "10-K FY26"
+    }
+  ],
+  "risks": [
+    {
+      "lead": "Valuation leaves no room for a stumble.",
+      "text": "The forward P/E of 40.5x is about 87% above the peer median of 21.7x. The 10-K lists failing to meet market expectations as a risk to the share price.",
+      "source": "Scorecard / 10-K FY26"
+    },
+    {
+      "lead": "Concentrated in the U.S., Canada and California.",
+      "text": "The U.S. and Canada made up 86% of net sales and 83% of operating income in FY26, and California alone made up 26% of U.S. net sales.",
+      "source": "10-K FY26 Item 1A"
+    },
+    {
+      "lead": "Everything depends on keeping members.",
+      "text": "Membership fees ($5.9B) are a large share of operating income on a 3.9% operating margin. A fall from the 89.8% worldwide renewal rate would hit profit directly.",
+      "source": "10-K FY26"
+    }
+  ],
+  "valuation": {
+    "absolute": "Expensive on every absolute measure: a 2.1% free cash flow yield, 40.5x forward earnings, 30.2x EV/EBITDA and a PEG of 4.07.",
+    "peers": "Trailing P/E is more than double the peer median of 21.5x, and EV/EBITDA is roughly double the peer median of 14.5x. Walmart is the exception at 38.3x forward, so the premium is mostly against BJ's, Target and Amazon. Part of it buys renewal-driven fee income and a net cash balance sheet.",
+    "history": "The script did not score this run against Costco's own 10-year P/E. The stock has traded at a premium to peers for years, so the peer gap overstates how unusual today's price is."
+  },
+  "change_mind": "The score would rise mostly through valuation. A pullback toward the high 20s on forward earnings, or several years of growth catching up with the price, would lift the valuation pillar from 7. On the downside, a break in the renewal rate or paid-member growth would hurt the quality and forward-growth case behind the premium."
+}
