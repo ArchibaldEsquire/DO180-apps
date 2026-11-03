@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<style>
+  .bg{fill:#141413} .grid{stroke:#2c2c2a;stroke-width:1} .base{stroke:#4a4a46;stroke-width:1}
+  .title{fill:#f0efec;font:600 22px system-ui,Segoe UI,Arial} .sub{fill:#c3c2b7;font:14px system-ui,Segoe UI,Arial}
+  .axis{fill:#a3a29b;font:12px system-ui,Segoe UI,Arial} .lbl{fill:#f0efec;font:600 13px system-ui,Segoe UI,Arial}
+  .note{fill:#a3a29b;font:11.5px system-ui,Segoe UI,Arial} .big{fill:#f0efec;font:700 26px system-ui,Segoe UI,Arial}
+  .bar{fill:#4a4a46} .s1{fill:#3987e5} .s2{fill:#d95926} .s3{fill:#199e70} .s4{fill:#c98500} .mut{fill:#898781}
+  .s1l{stroke:#3987e5;stroke-width:2.5;fill:none;stroke-linejoin:round;stroke-linecap:round}
+  .s2l{stroke:#d95926;stroke-width:2.5;fill:none} .s4l{stroke:#c98500;stroke-width:2;fill:none;stroke-dasharray:8 6}
+  .mutl{stroke:#898781;stroke-width:2;fill:none} .inkl{stroke:#f0efec;stroke-width:2;fill:none;stroke-linejoin:round}
+  .refl{stroke:#898781;stroke-width:1.5;fill:none;stroke-dasharray:6 5}
+  .wash1{fill:#3987e5;fill-opacity:.16} .wash2{fill:#3987e5;fill-opacity:.32}
+  .zone{fill:#199e70} .ceil{fill:#e66767;fill-opacity:.24} .ring{stroke:#141413;stroke-width:2}
+  .spag{stroke:#3987e5;stroke-opacity:.2;stroke-width:1;fill:none} .typl{stroke:#f0efec;stroke-width:3;fill:none}
+  .todayl{stroke:#6a6a64;stroke-width:1;stroke-dasharray:3 4} .hit{fill:none}
+  .box{fill:#3987e5} .boxl{stroke:#5a5a55;stroke-width:1;fill:none} .chokel{stroke:#c98500;stroke-width:4;fill:none}
+  .good{fill:#0ca30c} .warn{fill:#fab219} .crit{fill:#d03b3b} .na{fill:#5a5a55} .badge{fill:#141413;font:700 14px system-ui,Segoe UI,Arial}
+</style>
+<rect class="bg" width="100%" height="100%"/>
+<text class="title" x="60" y="62">TSLA</text>
+<text class="sub" x="60" y="90">The Judge · attractiveness scorecard · 2 Nov 2026</text>
+<text class="title" x="60" y="200" style="font-size:96px">38</text>
+<text class="sub" x="62" y="236">Unattractive · confidence high</text>
+<text class="lbl" x="420" y="140">Operating quality &amp; key metrics · 20%</text>
+<rect class="grid" x="420" y="150" width="420" height="10" rx="2" style="fill:#2c2c2a"/>
+<rect class="s1" x="420" y="150" width="187" height="10" rx="2"/>
+<text class="lbl" x="900" y="160" text-anchor="end">44</text>
+<text class="lbl" x="420" y="204">Recent financial trend · 20%</text>
+<rect class="grid" x="420" y="214" width="420" height="10" rx="2" style="fill:#2c2c2a"/>
+<rect class="s1" x="420" y="214" width="191" height="10" rx="2"/>
+<text class="lbl" x="900" y="224" text-anchor="end">46</text>
+<text class="lbl" x="420" y="268">Forward growth &amp; key drivers · 20%</text>
+<rect class="grid" x="420" y="278" width="420" height="10" rx="2" style="fill:#2c2c2a"/>
+<rect class="s1" x="420" y="278" width="240" height="10" rx="2"/>
+<text class="lbl" x="900" y="288" text-anchor="end">57</text>
+<text class="lbl" x="420" y="332">Valuation · 25%</text>
+<rect class="grid" x="420" y="342" width="420" height="10" rx="2" style="fill:#2c2c2a"/>
+<rect class="s1" x="420" y="342" width="0" height="10" rx="2"/>
+<text class="lbl" x="900" y="352" text-anchor="end">0</text>
+<text class="lbl" x="420" y="396">Catalysts &amp; risk skew · 15%</text>
+<rect class="grid" x="420" y="406" width="420" height="10" rx="2" style="fill:#2c2c2a"/>
+<rect class="s1" x="420" y="406" width="246" height="10" rx="2"/>
+<text class="lbl" x="900" y="416" text-anchor="end">59</text>
+<text class="note" x="60" y="518">From SEC filings and free market data. A framework for evidence, not advice.</text>
+</svg>

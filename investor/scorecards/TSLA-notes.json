@@ -1,0 +1,95 @@
+{
+  "peers": ["GM", "F", "TM", "RIVN", "BYDDY"],
+  "peer_reason": "The carmakers a Tesla buyer would shop instead: GM, Ford and Toyota at volume, BYD as the largest EV rival worldwide, and Rivian as the US EV start-up. None of them prices in robotaxis or robots, which is the gap the valuation measures.",
+  "thesis": [
+    {
+      "lead": "The car business has stalled.",
+      "text": "Q3 2026 revenue was $28.0B, flat on a year earlier, and deliveries fell 2% to 486,532. GAAP operating income fell to $718M from $1,624M, as operating expenses rose to $4.8B from $3.4B.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "The story is autonomy, software and energy.",
+      "text": "Active FSD subscriptions rose to 1.74M from 1.04M a year earlier. Cybercab Robotaxi rides started in Austin on 3 September, and Megafactory Texas began production with 50 GWh of planned capacity.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "The price assumes that story comes true on a large scale.",
+      "text": "At 185x next year's earnings and a 0.2% free cash flow yield, the price implies growth about 53 points a year above Tesla's own record. Even the 5-year median P/E is 137.6x, and the current multiple is 3.2 times that.",
+      "source": "Scorecard"
+    }
+  ],
+  "drivers": [
+    {
+      "lead": "FSD and Robotaxi.",
+      "text": "1.74M active FSD subscriptions, up 67% from a year earlier. Cumulative unsupervised Robotaxi miles grew eightfold quarter over quarter, and FSD (Supervised) is approved in nine European countries.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "Energy storage.",
+      "text": "13.7 GWh deployed in Q3, against 12.5 GWh a year earlier, with the highest order rate and backlog in the company's history. Tesla says data centres are driving demand.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "Vehicle backlog and new products.",
+      "text": "Tesla had its largest passenger-vehicle backlog in four years, with battery supply named as the limit on volume. The Semi entered high-volume production in Nevada, and the next-generation Roadster was unveiled on 15 October.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "Services and other revenue.",
+      "text": "$4.6B in Q3, up from $3.5B a year earlier: the fastest-growing revenue line.",
+      "source": "8-K 21 Oct 2026"
+    }
+  ],
+  "guidance": {
+    "text": "Tesla gives no revenue or delivery guidance. Its outlook says it is focused on maximum capacity utilization at its factories, and that it expects hardware-related profits to be accompanied by an acceleration of SI, software and fleet-based profits over time."
+  },
+  "catalysts": [
+    {
+      "date": "Undated",
+      "sort": "2027-03-31",
+      "title": "Robotaxi expansion beyond Austin",
+      "direction": "two-sided",
+      "note": "This is the main thing the valuation depends on. Wider launches or regulatory approvals would support the price, and setbacks or safety incidents would hurt it.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "date": "Undated",
+      "sort": "2027-06-30",
+      "title": "Battery supply and capacity utilization",
+      "direction": "positive skew",
+      "note": "Tesla named battery availability as the limit on vehicle volume, with a four-year-high backlog. More cell supply would turn that backlog into deliveries.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "date": "Undated",
+      "sort": "2027-09-30",
+      "title": "Value of the SpaceX stake",
+      "direction": "two-sided",
+      "note": "Tesla bought a $2.0B SpaceX stake in Q1 2026. Changes in its value now run through GAAP earnings: a $1.0B pre-tax gain in Q2 and a $142M loss in Q3.",
+      "source": "8-K 21 Oct 2026"
+    }
+  ],
+  "risks": [
+    {
+      "lead": "The price rests on products that are not yet proven.",
+      "text": "The price implies growth 52.8 points a year above Tesla's own record. The 10-K lists demand for autonomous driving, and Optimus being in an industry that \"has yet to develop commercially\", as risks.",
+      "source": "10-K FY25 Item 1A"
+    },
+    {
+      "lead": "Margins are being squeezed by spending.",
+      "text": "Operating margin was 3.3% over the last 12 months and fell 3.2 points from a year earlier. Capex was $10.5B over Q2 and Q3, against $2.2B in Q3 2025, as Tesla funds SI compute, cells and semiconductor manufacturing.",
+      "source": "8-K 21 Oct 2026"
+    },
+    {
+      "lead": "It depends heavily on Elon Musk.",
+      "text": "The 10-K names dependence on Musk, the possible sale of shares he has pledged, and the risk that the goals in the 2025 CEO Performance Award are misaligned with demand. Stock-based compensation was $1.2B in Q3, up from $663M a year earlier.",
+      "source": "10-K FY25 Item 1A / 8-K 21 Oct 2026"
+    }
+  ],
+  "valuation": {
+    "absolute": "Every absolute measure scores 0: a 0.2% free cash flow yield, 185x forward earnings, 168x EV/EBITDA and a PEG of 7.77. GAAP earnings understate profit (Q3 GAAP net income was $787M against $1.7B non-GAAP, mostly because of stock-based compensation), but even at the higher figure the multiple is extreme.",
+    "peers": "Tesla trades at many times the peer medians on every measure. Against carmakers the comparison is close to meaningless: the market prices Tesla as an autonomy and AI company. BYD's EV/EBITDA of 1.0x in the peer data looks like a currency mismatch, so read the peer medians with care.",
+    "history": "The trailing P/E is 3.2 times Tesla's own 5-year median of 137.6x, and that median was already high."
+  },
+  "change_mind": "Two things would change the view. First, proof that Robotaxi and FSD revenue can grow fast enough to justify the price: paid unsupervised rides in many cities, with software margins showing up in the results. Second, a large fall in the share price. The quality pillar would also improve if operating margin returned to double digits once the current capex cycle ends."
+}
